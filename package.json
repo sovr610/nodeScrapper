@@ -36,6 +36,7 @@
     "requests": "^0.3.0"
   },
   "devDependencies": {
+    "browserify": "^16.5.1",
     "chai": "^4.2.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",

@@ -33,3 +33,5 @@ If you do not want to use opencv, you can just use puppeteer and cherrio to get 
       - also perform this `npm install -g gulp-cli gulp gulp-babel mocha chai` to make sure the above commands work.
 
       - also perform install locally `npm install --save-dev @babel/core babel mocha chai gulp`
+
+      - and `npm install -g browserify` this is for bundling js files into one. How to use browserify: `browserify main.js -o bundle.js`
