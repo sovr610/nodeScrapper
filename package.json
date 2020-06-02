@@ -1,0 +1,48 @@
+{
+  "name": "stockscrapper",
+  "version": "1.0.0",
+  "description": "to refresh the website and collect stock data.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test\\test.js",
+    "startDev": "node src\\app.js",
+    "prodRun": "node dist\\app.js",
+    "minify": "gulp"
+  },
+  "keywords": [
+    "data",
+    "node",
+    "scrapper"
+  ],
+  "author": "Parker Bidigare",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "babel": "^6.23.0",
+    "cheerio": "^1.0.0-rc.3",
+    "eslint": "^7.1.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "express": "^4.17.1",
+    "express-pino-logger": "^5.0.0",
+    "fsutil": "^0.1.3",
+    "gulp-minify": "^3.1.0",
+    "jimp": "^0.12.1",
+    "nightmarejs": "0.0.1",
+    "node-gyp": "^5.1.1",
+    "pino": "^6.3.1",
+    "pino-pretty": "^4.0.0",
+    "puppeteer": "^3.3.0",
+    "requests": "^0.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.2.1",
+    "mocha": "^7.2.0"
+  }
+}
